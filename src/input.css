@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* width */
+.bottom-nav a.active {
+    @apply text-[#0079c3];
+}
+
+.bottom-nav {
+    box-shadow: 0px -3px 22px -7px rgba(0, 0, 0, 0.24);
+    -webkit-box-shadow: 0px -3px 22px -7px rgba(0, 0, 0, 0.24);
+    -moz-box-shadow: 0px -3px 22px -7px rgba(0, 0, 0, 0.24);
+}
+
+.bottom-nav a:hover {
+    @apply text-blue-400 transition-colors;
+}
+
+body,
+html {
+    @apply h-full;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.match-items::-webkit-scrollbar {
+    display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.match-items {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
