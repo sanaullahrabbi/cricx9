@@ -597,16 +597,16 @@ video {
   margin-bottom: -2rem;
 }
 
-.mb-1 {
-  margin-bottom: 0.25rem;
-}
-
 .-mt-4 {
   margin-top: -1rem;
 }
 
 .-mt-8 {
   margin-top: -2rem;
+}
+
+.mb-1 {
+  margin-bottom: 0.25rem;
 }
 
 .block {
@@ -857,12 +857,20 @@ video {
   padding-bottom: 1rem;
 }
 
+.\!pb-8 {
+  padding-bottom: 2rem !important;
+}
+
 .pb-10 {
   padding-bottom: 2.5rem;
 }
 
 .pb-12 {
   padding-bottom: 3rem;
+}
+
+.pb-6 {
+  padding-bottom: 1.5rem;
 }
 
 .pb-8 {
@@ -1015,4 +1023,14 @@ html {
   /* IE and Edge */
   scrollbar-width: none;
   /* Firefox */
+}
+
+.swiper-pagination-bullet {
+  height: 3px !important;
+  width: 20px !important;
+  border-radius: 2px !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #7b7a7a !important;
 }
