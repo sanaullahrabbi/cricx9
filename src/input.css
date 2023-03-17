@@ -31,3 +31,8 @@ html {
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
 }
+
+.bg-gradient {
+    background: rgb(60, 49, 250);
+    background: linear-gradient(144deg, rgb(60, 49, 250) 15%, rgb(250, 114, 47) 100%);
+}
