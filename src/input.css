@@ -32,6 +32,15 @@ html {
     scrollbar-width: none; /* Firefox */
 }
 
+.swiper-pagination-bullet {
+    height: 3px !important;
+    width: 20px !important;
+    border-radius: 2px !important;
+}
+.swiper-pagination-bullet-active {
+    background: #7b7a7a !important;
+}
+
 .bg-gradient {
     background: rgb(60, 49, 250);
     background: linear-gradient(144deg, rgb(60, 49, 250) 15%, rgb(250, 114, 47) 100%);
