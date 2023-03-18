@@ -8,6 +8,7 @@ module.exports = {
             },
             backgroundImage: {
                 "success-banner": "url('../assets/images/success/43-success-bg.png')",
+                "number-bg": "url('../assets/images/prediction/prediction page-bg.png')",
             },
         },
     },
