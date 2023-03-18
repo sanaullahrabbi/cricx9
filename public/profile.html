@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,700&family=Oswald:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="../src/output.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+            integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <title>Profile</title>
+    </head>
+
+    <body class="bg-gray-300 font-montserrat">
+        <div class="relative mx-auto h-full max-w-md overflow-hidden bg-[#f2f2f2]">
+            <div class="bg-gradient flex w-full flex-col justify-center px-4 py-5">
+                <div class="">
+                    <nav class="flex h-20 items-center justify-between">
+                        <div class="logo flex items-center justify-center gap-2 font-medium text-gray-50/90">
+                            <span class="text-lg"> <i class="fa-solid fa-arrow-left mr-2"></i> Account</span>
+                        </div>
+                    </nav>
+                    <div class="flex justify-between">
+                        <div><span class="aspect-square rounded-full bg-[#aeaeae] p-4"></span></div>
+                        <div class="flex flex-col">
+                            <div class="name text-white">Manish Purohit</div>
+                            <div class="progress h-1 w-full rounded-full bg-gray-200 dark:bg-gray-700">
+                                <div class="h-1 rounded-full bg-white" style="width: 45%"></div>
+                            </div>
+                        </div>
+                        <div><img src="../assets/images/profile/setting-icon.png" alt="" /></div>
+                    </div>
+                    <div
+                        class="lock mt-6 flex items-center justify-around rounded-full bg-black p-3 text-sm font-semibold text-white"
+                    >
+                        <div>₹25</div>
+                        <div>Cash Bonus</div>
+                        <div><img src="../assets/images/profile/lock.png" alt="" /></div>
+                    </div>
+                    <p class="text-center text-xs font-semibold text-[#f1dab8]">Unlock these Rewards at level 15</p>
+                </div>
+            </div>
+            <div class="main mt-16 flex gap-3 px-4">
+                <div class="sub flex flex-col justify-center bg-white py-4 px-4">
+                    <p class="font-montserrat text-3xl font-semibold text-[#0079c3]">Add Cash</p>
+                    <p class="font-semibold">₹ 3726</p>
+                    <p class="text-xs font-medium text-[#8d8d8d]">Total Balance</p>
+                </div>
+                <div class="sub flex flex-col justify-center bg-white py-4 px-4">
+                    <p class="font-montserrat text-3xl font-semibold text-[#0079c3]">Withdraw</p>
+                    <p class="font-semibold">₹ 3546</p>
+                    <p class="text-xs font-medium text-[#8d8d8d]">Total Balance</p>
+                </div>
+                <div class="sub flex flex-col justify-center bg-white py-4 px-4">
+                    <p class="font-semibold">₹ 50</p>
+                    <p class="text-xs font-medium text-[#8d8d8d]">Cash Bonus</p>
+                </div>
+            </div>
+            <div class="payment my-2">
+                <p class="py-1 px-6 font-oswald font-medium">Manage Payment</p>
+                <div class="bank my-2 flex w-full justify-between text-sm font-medium">
+                    <div class="flex flex-1 items-center justify-center">
+                        <span><img src="../assets/images/profile/card-1.png" alt="" /></span>
+                        <span class="ml-2">Cards</span>
+                    </div>
+                    <div class="flex flex-1 items-center justify-center">
+                        <span><img src="../assets/images/profile/card-2.png" alt="" /></span>
+                        <span class="ml-2 text-gray-600">PhonePe</span>
+                    </div>
+                    <div class="flex flex-1 items-center justify-center">
+                        <span><img src="../assets/images/profile/card-3.png" alt="" /></span>
+                        <span class="ml-2 text-gray-600">Paytm</span>
+                    </div>
+                </div>
+
+                <div class="main flex flex-col px-4">
+                    <div class="sub flex flex-row justify-between bg-white py-4 px-4">
+                        <div class="flex flex-col justify-between">
+                            <p class="font-montserrat text-lg font-semibold text-[#323232]">**** **** **** 8574</p>
+                            <p class="text-sm font-semibold uppercase text-[#ababab]">HDFC Bank Credit Card</p>
+                        </div>
+                        <img src="../assets/images/profile/master-card.png" alt="" />
+                    </div>
+                    <div class="sub flex flex-row justify-between bg-white py-4 px-4">
+                        <div class="flex flex-col justify-between">
+                            <p class="font-montserrat text-lg font-semibold text-[#323232]">**** **** **** 3256</p>
+                            <p class="text-sm font-semibold uppercase text-[#ababab]">SBI Credit Card</p>
+                        </div>
+                        <img src="../assets/images/profile/visa-card.png" alt="" />
+                    </div>
+                    <div class="sub flex flex-row justify-start bg-white py-4 px-4">
+                        <img src="../assets/images/profile/card-4.png" alt="" class="" />
+                        <div class="ml-8 flex flex-col justify-between">
+                            <p class="font-montserrat text-lg font-semibold text-[#323232]">Add Cards</p>
+                            <p class="text-sm font-semibold uppercase text-[#ababab]">
+                                For seamless, convenient payments
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- BOTTOM NAV -->
+            <nav class="bottom-nav absolute bottom-0 w-full rounded-tr-xl rounded-tl-xl bg-white">
+                <ul class="flex w-full justify-evenly py-4 font-semibold text-[#8d8d8d]">
+                    <li>
+                        <a href="#" class="active flex flex-col items-center justify-center"
+                            ><i class="fa-solid fa-house mb-1 text-lg"></i><span class="text-xs">Home</span></a
+                        >
+                    </li>
+                    <li>
+                        <a href="#" class="flex flex-col items-center justify-center"
+                            ><i class="fa-solid fa-user mb-1 text-lg"></i><span class="text-xs">Account</span></a
+                        >
+                    </li>
+                    <li>
+                        <a href="#" class="flex flex-col items-center justify-center"
+                            ><i class="fa-solid fa-trophy mb-1 text-lg"></i
+                            ><span class="text-xs">My Prediction</span></a
+                        >
+                    </li>
+                    <li>
+                        <a href="#" class="flex flex-col items-center justify-center"
+                            ><i class="fa-solid fa-ellipsis mb-1 text-lg"></i><span class="text-xs">More</span></a
+                        >
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </body>
+</html>
