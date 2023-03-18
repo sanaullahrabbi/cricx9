@@ -23,7 +23,7 @@
 
     <body class="bg-gray-300 font-montserrat">
         <div class="relative mx-auto h-full max-w-md overflow-hidden bg-[#f2f2f2]">
-            <div class="bg-gradient flex flex-col justify-center overflow-hidden px-4">
+            <div class="bg-gradient rounded_bg flex flex-col justify-center overflow-hidden px-4">
                 <nav class="flex h-20 items-center justify-between">
                     <div class="logo flex items-center justify-center gap-2 font-medium text-gray-50/90">
                         <span class="text-lg font-bold">
@@ -38,30 +38,35 @@
                 </nav>
 
                 <p class="my-10 text-center font-semibold text-white">5 Over</p>
-                <p class="mb-8 text-center text-xl font-medium text-white">
+                <p class="mb-8 pb-12 text-center text-xl font-medium text-white">
                     Predict the Last Digit of Run <br />
                     in this over and win x 9
                 </p>
             </div>
-            <div class="number">
-                <div class="flex justify-around px-20">
-                    <span class="rounded-full bg-[#f1892b] p-2 text-2xl font-semibold text-white">1</span>
-                    <span>2</span>
-                    <span>3</span>
+            <div class="number font-oswald text-3xl font-medium text-white">
+                <div class="my-8 flex justify-around px-20">
+                    <span class="number_bg flex aspect-square w-12 items-center justify-center rounded-full">1</span>
+                    <span class="number_bg flex aspect-square w-12 items-center justify-center rounded-full">2</span>
+                    <span class="number_bg flex aspect-square w-12 items-center justify-center rounded-full">3</span>
                 </div>
-                <div>
-                    <span>4</span>
-                    <span>5</span>
-                    <span>6</span>
+                <div class="my-8 flex justify-around px-20">
+                    <span class="number_bg flex aspect-square w-12 items-center justify-center rounded-full">4</span>
+                    <span class="number_bg flex aspect-square w-12 items-center justify-center rounded-full">5</span>
+                    <span class="number_bg flex aspect-square w-12 items-center justify-center rounded-full">6</span>
                 </div>
-                <div>
-                    <span>7</span>
-                    <span>8</span>
-                    <span>9</span>
+                <div class="my-8 flex justify-around px-20">
+                    <span class="number_bg flex aspect-square w-12 items-center justify-center rounded-full">7</span>
+                    <span class="number_bg flex aspect-square w-12 items-center justify-center rounded-full">8</span>
+                    <span class="number_bg flex aspect-square w-12 items-center justify-center rounded-full">9</span>
                 </div>
-                <div>
-                    <span>0</span>
+                <div class="my-8 flex justify-around px-20">
+                    <span class="number_bg flex aspect-square w-12 items-center justify-center rounded-full">0</span>
                 </div>
+            </div>
+            <div class="coin-select mt-16 flex justify-end px-6 font-oswald font-medium text-white">
+                <span class="flex aspect-square w-20 items-center justify-center bg-number-bg bg-cover text-4xl"
+                    >5</span
+                >
             </div>
         </div>
     </body>
