@@ -7,7 +7,7 @@ module.exports = {
                 montserrat: ["Montserrat", "sans-serif"],
             },
             backgroundImage: {
-                "gradient-24": "linear-gradient(24deg, var(--tw-gradient-stops))",
+                "success-banner": "url('../assets/images/success/43-success-bg.png')",
             },
         },
     },
