@@ -1,52 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,700&family=Oswald:wght@300;400;500;600;700&display=swap"
-            rel="stylesheet"
-        />
-        <link rel="stylesheet" href="../src/output.css" />
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-            integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
-            crossorigin="anonymous"
-            referrerpolicy="no-referrer"
-        />
-        <title>Match-Click</title>
-    </head>
 
-    <body class="bg-gray-300 font-montserrat">
-        <div class="relative mx-auto h-full max-w-md overflow-hidden bg-[#f2f2f2]">
-            <div class="bg-gradient flex flex-col justify-center overflow-hidden px-4">
-                <nav class="flex h-20 items-center justify-between">
-                    <div class="logo flex items-center justify-center gap-2 font-semibold text-gray-50/90">
-                        <span> <i class="fa-solid fa-arrow-left mr-2"></i> Match</span>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,700&family=Oswald:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="../src/output.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Match-Click</title>
+</head>
+
+<body class="bg-gray-300 font-montserrat">
+    <div class="relative mx-auto h-full max-w-md overflow-hidden bg-[#f2f2f2]">
+        <div class="bg-gradient flex flex-col justify-center overflow-hidden px-4 h-full">
+            <nav class="flex h-20 items-center justify-between">
+                <div class="logo flex items-center justify-center gap-2 font-semibold text-gray-50/90">
+                    <span> <i class="fa-solid fa-arrow-left mr-2"></i> Match</span>
+                </div>
+                <div class="right flex flex-row justify-center items-center">
+                    <a href="#" class="mr-2"><img src="../assets/images/match-click/Match click.png" alt=""
+                            class="aspect-square w-6 rounded-full bg-[#56386b] p-1" /></a>
+                    <div
+                        class="rounded-[50%] bg-[#19ce33] font-semibold text-white grid place-items-center w-6 aspect-square">
+                        <a href="#">?</a>
                     </div>
-                    <div class="right flex flex-row justify-center">
-                        <a href="#" class="my-1 mx-3"
-                            ><img
-                                src="../assets/images/match-click/Match click.png"
-                                alt=""
-                                class="aspect-square w-6 rounded-full bg-[#56386b] p-1"
-                        /></a>
-                        <div class="rounded-[50%] bg-[#19ce33] py-1 px-3 font-semibold text-white">
-                            <a href="#"><img src="" alt="" />?</a>
-                        </div>
-                    </div>
-                </nav>
-                <div class="date flex w-full flex-row items-center justify-center">
-                    <img src="../assets/images/match-click/Match click-time-left.png" alt="" / class="mx-3 my-4
-                    aspect-square w-4">
+                </div>
+            </nav>
+            <div class="flex-1">
+                <div class="date flex w-full flex-row items-center justify-center gap-3">
+                    <img src="../assets/images/match-click/Match click-time-left.png" alt="" class="aspect-square w-4">
                     <h4 class="font-oswald text-white">1h 22m 45s</h4>
                 </div>
-                <div class="match mb-6 flex justify-around font-oswald font-medium">
-                    <div class="left flex flex-row">
+                <div class="match flex justify-around font-oswald font-medium items-center my-6">
+                    <div class="flex flex-row">
                         <div class="icon rounded-full bg-[#f0c138] p-2 outline outline-4 outline-[#231f20]">
                             <img src="../assets/images/match-click/Match click-team.png" alt="" class="w-8" />
                         </div>
@@ -55,7 +48,7 @@
                             <span class="score">7</span>
                         </div>
                     </div>
-                    <div class="middle text-white">vs</div>
+                    <div class="middle text-gray-300/90">vs</div>
                     <div class="right flex flex-row">
                         <div class="icon rounded-full bg-[#bbc2c5] p-2 outline outline-4 outline-[#231f20]">
                             <img src="../assets/images/match-click/Match click-team.png" alt="" class="w-8" />
@@ -66,7 +59,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="score_over mb-6 flex justify-around font-montserrat text-white">
+                <div class="score_over flex justify-center gap-6 mt-10 font-montserrat text-white">
                     <span>
                         <span class="font-medium">Score</span>
                         <span class="rounded-sm bg-[#403184] px-2 py-1 text-sm font-semibold">7 - 11</span>
@@ -76,56 +69,61 @@
                         <span class="font-medium">Over</span>
                     </span>
                 </div>
-                <p class="mt-6 mb-10 text-center font-oswald font-semibold text-white">Select Over</p>
-                <div class="over mb-6 flex justify-around font-montserrat">
-                    <div class="left flex flex-col">
+                <p class="my-12 text-center font-oswald font-semibold text-white">Select Over</p>
+                <div class="over mb-6 flex justify-around items-center font-montserrat">
+                    <div class="left flex flex-col justify-center items-center">
                         <div class="icon rounded-full bg-[#15a3e4] p-2 outline outline-2 outline-[#fff]">
                             <img src="../assets/images/match-click/Match click-ball.png" alt="" class="w-8" />
                         </div>
                         <div class="info flex flex-col items-center justify-center">
-                            <span class="name rounded-full bg-[#fff] p-2 text-xs font-bold text-[#323232]"
-                                >&nbsp;5&nbsp;</span
-                            >
-                            <span class="score text-xl font-medium text-white">Over</span>
+                            <span
+                                class="name rounded-full bg-[#fff] grid place-items-center w-7 aspect-square text-sm font-bold text-[#323232]">5</span>
+                            <span class="score text-xl font-medium text-white mt-2">OVER</span>
                         </div>
                     </div>
-                    <div class="right flex flex-col">
+                    <div class="right flex flex-col justify-center items-center">
                         <div class="icon rounded-full bg-[#5b4053] p-2 outline outline-2 outline-[#fff]">
                             <img src="../assets/images/match-click/Match click-ball.png" alt="" class="w-8" />
                         </div>
                         <div class="info flex flex-col items-center justify-center">
-                            <span class="name rounded-full bg-[#fff] p-2 text-xs font-bold text-[#323232]">10</span>
-                            <span class="score text-xl font-medium text-white">Over</span>
+                            <span
+                                class="name rounded-full bg-[#fff] grid place-items-center w-7 aspect-square text-sm font-bold text-[#323232]">10</span>
+                            <span class="score text-xl font-medium text-white mt-2">OVER</span>
                         </div>
                     </div>
                 </div>
-                <div class="over mb-6 flex justify-around font-montserrat">
-                    <div class="left flex flex-col">
+                <div class="over mb-6 flex justify-around items-center font-montserrat">
+                    <div class="flex flex-col justify-center items-center mt-7">
                         <div class="icon rounded-full bg-[#5b4053] p-2 outline outline-2 outline-[#fff]">
                             <img src="../assets/images/match-click/Match click-ball.png" alt="" class="w-8" />
                         </div>
                         <div class="info flex flex-col items-center justify-center">
-                            <span class="name rounded-full bg-[#fff] p-2 text-xs font-bold text-[#323232]"
-                                >&nbsp;15&nbsp;</span
-                            >
-                            <span class="score text-xl font-medium text-white">Over</span>
+                            <span
+                                class="name rounded-full bg-[#fff] grid place-items-center w-7 aspect-square text-sm font-bold text-[#323232]">15</span>
+                            <span class="score text-xl font-medium text-white mt-2">OVER</span>
                         </div>
                     </div>
-                    <div class="right flex flex-col">
-                        <div><span class="uppercase text-[#ffffff]">Suspended</span></div>
+                    <div class="right flex flex-col justify-center items-center">
+                        <div><span
+                                class="uppercase text-[#ffffff] font-oswald text-xs text-gray-300/90">Suspended</span>
+                        </div>
                         <div class="icon rounded-full bg-[#5b4053] p-2 outline outline-2 outline-[#fff]">
                             <img src="../assets/images/match-click/Match click-red-ball.png" alt="" class="w-8" />
                         </div>
                         <div class="info flex flex-col items-center justify-center">
-                            <span class="name rounded-full bg-[#fff] p-2 text-xs font-bold text-[#323232]">20</span>
-                            <span class="score text-xl font-medium text-white">Over</span>
+                            <span
+                                class="name rounded-full bg-[#fff] grid place-items-center w-7 aspect-square text-sm font-bold text-[#323232]">20</span>
+                            <span class="score text-xl font-medium text-white mt-2">OVER</span>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="heading mt-6 flex flex-col items-center justify-center px-4">
-                <a href="#" class="w-full rounded-sm bg-[#1ac721] p-3 text-center font-semibold text-white">next</a>
+            <div class="heading mt-6 flex flex-col items-center justify-center -mx-4 bg-black px-4 py-2">
+                <a href="#"
+                    class="w-full rounded-sm bg-[#1ac721] p-3 text-center font-semibold text-white uppercase">next</a>
             </div>
         </div>
-    </body>
+    </div>
+</body>
+
 </html>
