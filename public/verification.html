@@ -21,12 +21,14 @@
         <title>Verification</title>
     </head>
 
-    <body class="bg-gray-300 font-montserrat">
-        <div class="relative mx-auto h-full max-w-md overflow-hidden bg-[#f2f2f2]">
+    <body class="grid place-items-center bg-gray-300 font-montserrat">
+        <div class="relative mx-auto aspect-[9/18] h-full max-w-md overflow-hidden bg-[#f2f2f2]">
             <div class="bg-gradient flex flex-col justify-center overflow-hidden px-4">
                 <nav class="flex h-20 items-center justify-between">
                     <div class="logo flex items-center justify-center gap-2 font-medium text-gray-50/90">
-                        <span class="text-lg"> <i class="fa-solid fa-arrow-left mr-2"></i> Enter Verification Code</span>
+                        <span class="text-lg">
+                            <i class="fa-solid fa-arrow-left mr-2"></i> Enter Verification Code</span
+                        >
                     </div>
                 </nav>
             </div>
@@ -36,22 +38,31 @@
             </div>
             <div class="heading flex flex-col items-center justify-center px-4">
                 <p class="text-center text-xl font-semibold text-[#323232]">Enter One Time Password (OTP)</p>
-                <span class="mb-1 text-sm font-medium text-[#a8a8a8] text-center"
-                    >One Time Password (OTP) has been sent <br />
-                    to your mobile <span class="font-semibold text-[#3f3f3f]""> * * * * * * 3210</span> please enter the <br> same here to login.
+                <span class="mb-1 text-center text-sm font-medium text-[#a8a8a8]"
+                    >One Time Password (OTP) has been sent
+                    <br />
+                    to your mobile <span class="font-semibold text-[#3f3f3f]"> * * * * * * 3210</span> please enter the
+                    <br />
+                    same here to login.
                 </span>
-                    <a href=""# class="text-[#208ac9] font-semibold text-sm mb-6">Edit number</a>
-                    <form class="code font-medium text-xl text-[#323232] mb-6">
-                      <input type="text" inputmode="numeric" class="rounded-sm px-3 py-2 mx-2 bg-white w-10" value="2">
-                      <input type="text" inputmode="numeric" class="rounded-sm px-3 py-2 mx-2 bg-white w-10" value="7">
-                      <input type="text" inputmode="numeric" class="rounded-sm px-3 py-2 mx-2 bg-white w-10" value="8">
-                      <input type="text" inputmode="numeric" class="rounded-sm px-3 py-2 mx-2 bg-white w-10" value="5">
-                    </form>
-                        <button type="submit"
-                        class="w-full rounded-sm bg-[#007ac3] px-3 py-2.5 text-center hover:bg-blue-700 font-semibold text-white focus-within:ring focus-within:ring-blue-300/80 transition-all ">Continue</button>
-                        <div class="resend">
-                          <p class="font-medium text-[#a8a8a8] text-sm my-3">Didn't receive OTP? <a href="#" class="text-[#208ac9]">Resend OTP</a></p>
-                        </div>
+                <a href="" # class="mb-6 text-sm font-semibold text-[#208ac9]">Edit number</a>
+                <form class="code mb-6 text-xl font-medium text-[#323232]">
+                    <input type="text" inputmode="numeric" class="mx-2 w-10 rounded-sm bg-white px-3 py-2" value="2" />
+                    <input type="text" inputmode="numeric" class="mx-2 w-10 rounded-sm bg-white px-3 py-2" value="7" />
+                    <input type="text" inputmode="numeric" class="mx-2 w-10 rounded-sm bg-white px-3 py-2" value="8" />
+                    <input type="text" inputmode="numeric" class="mx-2 w-10 rounded-sm bg-white px-3 py-2" value="5" />
+                </form>
+                <button
+                    type="submit"
+                    class="w-full rounded-sm bg-[#007ac3] px-3 py-2.5 text-center font-semibold text-white transition-all focus-within:ring focus-within:ring-blue-300/80 hover:bg-blue-700"
+                >
+                    Continue
+                </button>
+                <div class="resend">
+                    <p class="my-3 text-sm font-medium text-[#a8a8a8]">
+                        Didn't receive OTP? <a href="#" class="text-[#208ac9]">Resend OTP</a>
+                    </p>
+                </div>
             </div>
         </div>
     </body>

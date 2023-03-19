@@ -989,6 +989,10 @@ video {
   aspect-ratio: 1 / 1;
 }
 
+.aspect-\[9\/18\] {
+  aspect-ratio: 9/18;
+}
+
 .h-1 {
   height: 0.25rem;
 }
